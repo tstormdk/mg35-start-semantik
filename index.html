@@ -5,40 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <style>
+        h1{
+            font-size: 3rem;
+        }
+    </style>
 </head>
 
 <body>
     
-    <div>
-        <hx>Information</hx>
-        <ul>
-            <li>
-                <a href="#">Nyhedsbreve</a>
-            </li>
-            <li>
-                <a href="#">Podcast</a>
-            </li>
-            <li>
-                <a href="#">Køb abonnoment</a>
-            </li>
-        </ul>
-    </div>
+    <header>
+        <h1>Information</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Nyhedsbreve</a>
+                </li>
+                <li>
+                    <a href="#">Podcast</a>
+                </li>
+                <li>
+                    <a href="#">Køb abonnoment</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     
-    <div>
+    <main>
         <picture>
             <source media="(min-width:650px)" srcset="https://dummyimage.com/1330x300/000/fff">
             <source media="(min-width:465px)" srcset="https://dummyimage.com/400x150/000/fff">
             <img src="https://dummyimage.com/1330x300/000/fff" alt="dummyimg" style="width:auto;">
           </picture> 
 
-        <hx>Abonnement</hx>
-        <div>
+         <h2>Abonnement</h2>
+        <article>
             <p>Læsetid: 7 min</p>
-            <h1>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus. Perspiciatis temporibus odit
+            <h3>Gas er et godt politisk våben. Det er bare ikke Putin, der bruger det</h3>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus. Perspiciatis temporibus odit
                 quaerat, voluptatum quam itaque suscipit quibusdam eligendi eaque, quidem sequi velit sunt quod
-                accusamus
+                accusamus <br>
                 quae repellendus doloribus.
                 Sed ut explicabo eligendi alias officiis in molestiae, possimus delectus cupiditate porro id facilis
                 odit
@@ -54,13 +61,14 @@
             </p>
             <hr>
             <figure>
-                <figcaption>
+             
+                <img src="https://dummyimage.com/600x600/000/fff" alt="dummyimage">
+                <figcaption style="background-color: yellowgreen;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Error <br>
                     <i>Billede: Peter Nygaard Christensen</i>
                 </figcaption>
-                <img src="https://dummyimage.com/600x600/000/fff" alt="dummyimage">
             </figure>
-        </div>
+        </article>
 
         <hr>
 
@@ -83,7 +91,7 @@
         <br>
         <hr>
 
-        <hx>Fik du læst?</hx>
+        <h2>Fik du læst?</hx>
         <div>
             <img src="https://picsum.photos/id/1024/200/300.webp" alt="Clock" srcset="https://picsum.photos/id/1021/200/300.webp 200w, https://picsum.photos/id/1025/200/300.webp 1000w" sizes="(max-width: 1000px) 200px, 50vw">
 
@@ -93,7 +101,7 @@
             <img src="https://picsum.photos/id/1044//200/300.webp" alt="dummyimage" aria-label="quantity of Flowers">
         </div>
 
-        <hx>Seneste nyt</hx>
+        <h2>Seneste nyt</h2>
         <div>
             <ol>
                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quo assumenda quidem, eligendi pariatur
@@ -113,7 +121,7 @@
         <hr>
 
         <hx>Forsiden lige nu</hx>
-        <d>
+        <div>
             <div>
                 <img src="https://dummyimage.com/300x200/000/fff" alt="dummyimage">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
@@ -178,9 +186,9 @@
                 </p>
             </div>
         </div>
-    </div>
+    </main>
 
-    <div>
+    <footer>
         <hx>Information som E-avis</hx>
         <div>
             <p><i>ipsum dolor sit amet consectetur adipisicing elit.</i></p>
@@ -219,7 +227,7 @@
             </ul>
         </div>
         <a href="#">Skriv til os</a>
-    </div>
+    </footer>
 
 </body>
 
